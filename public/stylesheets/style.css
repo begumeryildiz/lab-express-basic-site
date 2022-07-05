@@ -61,3 +61,17 @@ table td {
   text-transform: uppercase;
   padding: 0.3rem 0.5rem;
 }
+
+#about-img {
+  display: block;
+  margin: auto;
+  max-width: 10%;
+  border-radius: 5%;
+}
+
+#about-text {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+  font-size: 20px;
+}
