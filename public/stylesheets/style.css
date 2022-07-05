@@ -41,6 +41,30 @@ img {
   width: 50%;
 }
 
+article {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+table {
+  margin: 3% auto;
+  border-style: groove;
+}
+
+table td {
+  margin: auto;
+  text-transform: uppercase;
+  border-style: double;
+  text-align: center;
+}
+
+td img {
+  float: left;
+  height: 30vh;
+}
+
 #about-img {
   display: block;
   margin: auto;
@@ -51,6 +75,6 @@ img {
 #about-text {
   padding-left: 40px;
   padding-right: 40px;
-  text-align:justify;
+  text-align: justify;
   font-size: 20px;
 }
