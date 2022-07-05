@@ -53,13 +53,16 @@ table {
   border-style: groove;
 }
 
-table tr {
+table td {
+  margin: auto;
+  text-transform: uppercase;
   border-style: double;
+  text-align: center;
 }
 
-table td {
-  text-transform: uppercase;
-  padding: 0.3rem 0.5rem;
+td img {
+  float: left;
+  height: 30vh;
 }
 
 #about-img {
