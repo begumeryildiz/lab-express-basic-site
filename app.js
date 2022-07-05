@@ -19,5 +19,7 @@ app.get("/works", (request, response, next) =>
   response.sendFile(__dirname + "/views/works.html")
 );
 
+app.get('/gallery', (request, response, next) => response.sendFile(__dirname + '/views/gallery.html'))
+
 // Server Started
 app.listen(3001, () => console.log("My first app listening on port 3001!"));

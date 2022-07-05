@@ -1,80 +1,102 @@
 body {
-  background-color: darkgray;
+    background-color: darkgray;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+    background-color: #111;
 }
 
 .active {
-  background-color: #04aa6d;
+    background-color: #04aa6d;
 }
 
 h1,
 h2 {
-  text-align: center;
+    text-align: center;
 }
 
 img {
-  display: block;
-  margin: auto;
-  width: 50%;
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 article {
-  display: block;
-  margin: auto;
-  text-align: center;
-  width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 50%;
 }
 
 table {
-  margin: 3% auto;
-  border-style: groove;
+    margin: 3% auto;
+    border-style: groove;
 }
 
 table td {
-  margin: auto;
-  text-transform: uppercase;
-  border-style: double;
-  text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    border-style: double;
+    text-align: center;
 }
 
 td img {
-  float: left;
-  height: 30vh;
+    float: left;
+    height: 30vh;
 }
 
 #about-img {
-  display: block;
-  margin: auto;
-  max-width: 10%;
-  border-radius: 5%;
+    display: block;
+    padding-right: 10px;
+    max-width: 10%;
+    border-radius: 5%;
 }
 
 .text {
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: justify;
-  font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#gallery-container {
+    column-gap: 1vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: 20vh;
 }
