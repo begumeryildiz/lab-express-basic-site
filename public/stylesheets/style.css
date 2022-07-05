@@ -72,7 +72,7 @@ td img {
   border-radius: 5%;
 }
 
-#about-text {
+.text {
   padding-left: 40px;
   padding-right: 40px;
   text-align: justify;
